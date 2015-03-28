@@ -20,11 +20,6 @@ int main(int argc, char *argv[]) {
 			temp = sqrt(temp);
 			answer1 = (temp - b)/(2*a);
 			answer2 = -(temp + b)/(2*a);
-			if(answer1 < answer2){
-				answer1 = answer1+answer2;
-				answer2 = answer1-answer2;
-				answer1 = answer1-answer2;
-			}
 			printf("x1=%d , x2=%d\n", answer1, answer2);
 		}
 	}

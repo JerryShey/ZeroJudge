@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
 }
 
 void build_p(){
-	int i, j = 2, k;
+	int i, j = 2;
 	for(i = 7; i <= 1000000; i+=j){
 		if(is_crime(i)){
 			p[p_cnt] = i;
